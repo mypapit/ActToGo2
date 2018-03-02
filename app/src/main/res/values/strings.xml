@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ActToGo</string>
+    <string name="notes_activity">Notes</string>
+    <string name="video_activity">Videos</string>
+    <string name="player_activity">View Videos</string>
+    <string name="issues_activity">Issues</string>
+    <string name="dictionary_activity">Dictionary</string>
+    <string name="contact_activity">Contact</string>
+    <string name="about_activity">About</string>
+
+
+    <string name="dialog_title_notes">Choose Note Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_define">Define</string>
+    <string name="address">Fakulti Sains Komputer dan Matematik,\nUniversiti Teknologi MARA Cawangan Negeri Sembilan, Kampus Seremban\n70300 Seremban, Malaysia</string>
+</resources>

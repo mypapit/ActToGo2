@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/item_margin"
+    android:paddingRight="@dimen/item_margin"
+    >
+
+    <ImageView
+        android:id="@+id/ivnotes"
+
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_marginBottom="16dip"
+        android:layout_marginTop="16dip"
+        android:contentDescription="@string/app_name"
+
+
+        android:src="@android:drawable/ic_delete" />
+
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="8dip"
+        android:layout_toRightOf="@id/ivnotes"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Chapter 1"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvsubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtitle"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@id/ivnotes"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Description of Chapter #1"
+        android:textSize="14sp" />
+
+
+
+
+</RelativeLayout>
